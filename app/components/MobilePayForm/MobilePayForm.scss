@@ -1,0 +1,52 @@
+.MobilePayForm {
+  display: table;
+  height: 100%;
+  width: 100%;
+  background: #00b286;
+
+  &__container {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+  &__fieldTitle {
+    color: #fff;
+    text-align: left;
+    font-family: Arial;
+    padding-bottom: 20px;
+    font-size: 14px;
+  }
+  &__field {
+    display: inline-block;
+    width: 450px;
+    padding-bottom: 30px;
+    &--right {
+      width: 250px;
+    }
+    &--money {
+      float: right;
+    }
+  }
+  &__money {
+    height: 40px;
+    float: right;
+    width: 100px;
+    text-align: left;
+    line-height: 45px;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    box-sizing: border-box;
+    padding-left: 10px;
+  }
+}
+@media (max-width: 700px) {
+  .MobilePayForm {
+    &__title {
+      text-align: center;
+    }
+    &__field {
+      width: 400px;
+    }
+  }
+}

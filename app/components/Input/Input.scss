@@ -1,0 +1,28 @@
+.input {
+    height: 40px;
+    width: 150px;
+    position: relative;
+    &__field {
+        font-family: 'Roboto', sans-serif;
+        height: 40px;
+        width: 150px;
+        line-height: 40px;
+        font-size: 40px;
+        background: transparent;
+        outline: none;
+        border: none;
+        color: #fff;
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        right: 0;
+        top: 0;
+        text-align: right;
+        &--hasError {
+            color: #ff9b89;
+        }
+    }
+    &__placeholder {
+        color: #8adfce;
+    }
+}

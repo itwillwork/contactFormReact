@@ -1,0 +1,29 @@
+.InputWithMask {
+    height: 40px;
+    width: 400px;
+    position: relative;
+    &__field {
+        font-family: 'Roboto', sans-serif;
+        text-align: left;
+        height: 40px;
+        width: 400px;
+        line-height: 40px;
+        font-size: 40px;
+        background: transparent;
+        outline: none;
+        border: none;
+        color: #fff;
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 0;
+        margin: 0;
+    }
+    &__placeholder {
+        top: 1px;
+        color: #8adfce;
+    }
+    &--hasError {
+        color: #ff9b89;
+    }
+}
